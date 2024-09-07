@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89a7e935-5700-483d-864a-6b3b8945a29d" name="Changes" comment="Add langchain docs">
-      <change afterPath="$PROJECT_DIR$/ingest.py" afterDir="false" />
+    <list default="true" id="89a7e935-5700-483d-864a-6b3b8945a29d" name="Changes" comment="Load LangChain documents">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ingest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.ingest.executor": "Debug",
+    "Python.ingest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
@@ -100,13 +101,22 @@
       <option name="project" value="LOCAL" />
       <updated>1725685895926</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Load LangChain documents">
+      <option name="closed" value="true" />
+      <created>1725687348669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725687348669</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project setup" />
     <MESSAGE value="Add langchain docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add langchain docs" />
+    <MESSAGE value="Load LangChain documents" />
+    <option name="LAST_COMMIT_MESSAGE" value="Load LangChain documents" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -115,11 +125,6 @@
           <url>file://$PROJECT_DIR$/langchain-docsx/ingest.py</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ingest.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

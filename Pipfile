@@ -9,6 +9,8 @@ black = "*"
 python-dotenv = "*"
 langchain-community = "*"
 beautifulsoup4 = "*"
+langchain-pinecone = "*"
+ollama = "*"
 
 [dev-packages]
 
