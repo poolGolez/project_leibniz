@@ -7,6 +7,8 @@ name = "pypi"
 langchain = "*"
 black = "*"
 python-dotenv = "*"
+langchain-community = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
