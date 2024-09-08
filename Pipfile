@@ -11,6 +11,7 @@ langchain-community = "*"
 beautifulsoup4 = "*"
 langchain-pinecone = "*"
 ollama = "*"
+langchainhub = "*"
 
 [dev-packages]
 

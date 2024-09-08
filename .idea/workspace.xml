@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89a7e935-5700-483d-864a-6b3b8945a29d" name="Changes" comment="Load LangChain documents">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="89a7e935-5700-483d-864a-6b3b8945a29d" name="Changes" comment="Ingest documents to PineCone">
+      <change afterPath="$PROJECT_DIR$/rag.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
@@ -31,6 +31,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.ingest.executor": "Run",
+    "Python.rag.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
@@ -109,14 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725687348669</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ingest documents to PineCone">
+      <option name="closed" value="true" />
+      <created>1725691405348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725691405348</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project setup" />
     <MESSAGE value="Add langchain docs" />
     <MESSAGE value="Load LangChain documents" />
-    <option name="LAST_COMMIT_MESSAGE" value="Load LangChain documents" />
+    <MESSAGE value="Ingest documents to PineCone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ingest documents to PineCone" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -125,6 +135,11 @@
           <url>file://$PROJECT_DIR$/langchain-docsx/ingest.py</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rag.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
