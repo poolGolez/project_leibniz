@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89a7e935-5700-483d-864a-6b3b8945a29d" name="Changes" comment="Ingest documents to PineCone">
-      <change afterPath="$PROJECT_DIR$/rag.py" afterDir="false" />
+    <list default="true" id="89a7e935-5700-483d-864a-6b3b8945a29d" name="Changes" comment="Implement QA chatbot">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ingest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +29,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.StreamLit.executor": "Run",
     "Python.ingest.executor": "Run",
     "Python.rag.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/poolgolez/projects/langchain/project_newton/project_leibniz"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -41,7 +42,30 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.StreamLit">
+    <configuration name="StreamLit" type="PythonConfigurationType" factoryName="Python">
+      <module name="project_leibniz" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (project_leibniz)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/bin/streamlit" />
+      <option name="PARAMETERS" value="run main.py" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ingest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="project_leibniz" />
       <option name="ENV_FILES" value="" />
@@ -64,6 +88,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.StreamLit" />
+      <item itemvalue="Python.ingest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ingest" />
@@ -118,15 +146,43 @@
       <option name="project" value="LOCAL" />
       <updated>1725691405348</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ingest documents to PineCone">
+      <option name="closed" value="true" />
+      <created>1725755298710</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725755298710</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implement QA chatbot">
+      <option name="closed" value="true" />
+      <created>1725755347289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725755347289</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project setup" />
     <MESSAGE value="Add langchain docs" />
     <MESSAGE value="Load LangChain documents" />
     <MESSAGE value="Ingest documents to PineCone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ingest documents to PineCone" />
+    <MESSAGE value="Implement QA chatbot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement QA chatbot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

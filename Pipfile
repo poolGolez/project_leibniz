@@ -12,6 +12,8 @@ beautifulsoup4 = "*"
 langchain-pinecone = "*"
 ollama = "*"
 langchainhub = "*"
+streamlit = "*"
+streamlit-chat = "*"
 
 [dev-packages]
 
